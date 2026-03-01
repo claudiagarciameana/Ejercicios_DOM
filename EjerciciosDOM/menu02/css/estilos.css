@@ -1,6 +1,7 @@
 /*¡¡¡Atención!!! Faltan los estilos de la media query*/
 
 
+/*¡¡¡Atención!!! Faltan los estilos de la media query*/
 *{
     margin:0;
     padding:0;
@@ -43,8 +44,8 @@ nav a{
 }
 
 /* ===== RESPONSIVE ===== */
-@media(max-width:768px){
-    nav{
+@media (max-width: 768px) {
+    nav {
         position:absolute;
         top:60px;
         left:0;
@@ -52,17 +53,21 @@ nav a{
         background:#1e40af;
         display:none;
     }
-nav ul{
-    flex-direction:column;
-    padding:10px;
-}
-nav ul li{
-    padding:10px 0;
-}
-.hamburguesa{
-    display:block;
-}
-nav.mostrar{
-    display:block;
-}
+
+    nav ul {
+        flex-direction:column;
+        padding:10px;
+    }
+
+    nav ul li {
+        padding:10px 0;
+    }
+
+    .hamburguesa {
+        display:block;
+    }
+
+    nav.mostrar {
+        display:block;
+    }
 }
